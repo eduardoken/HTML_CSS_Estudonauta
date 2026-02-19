@@ -15,5 +15,15 @@
         <source media="(max-width: 1050px)" srcset="./img/foto-m.png" type="image/png">
         <img src="./img/foto-g.png" alt="imagem flexível">
     </picture>
+
+    <h1>Reproduxindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls>
+        <sources src="./midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="./midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="./midia/happy-mistake.wav" type="audio/wav">
+        <!-- evite wav pois é pesado -->
+        <p>Seu navegador não consegue reproduzir áudios. <a href="midia/happy-mistake.mp3">Clique aqui para baixar o áudio</a></p>
+    </audio>
 </body>
 </html>
